@@ -1,0 +1,228 @@
+{
+    "Config": {
+        "Ambient": 0.3,
+        "CanRepeatLabel": false,
+        "Diffuse": 0.6,
+        "ExcludeFileSuffixList": "",
+        "FileTagTitle1": "",
+        "FileTagTitle2": "",
+        "FileTagTitle3": "",
+        "IsLoadDicomToVideo": false,
+        "IsSaveSrcFile": true,
+        "KEY": "JzmQ8AatApWUdjlQk5ePFA==",
+        "LabelSavePath": "",
+        "LandMark3DScale": 1.0,
+        "LandMarkActorScale": 1.0,
+        "PlayInterval": 100,
+        "PolyPointScale": 1.0,
+        "Record_Time": 5,
+        "RectActorScale": 1.0,
+        "RectDescription": 1,
+        "SegModelPaths": null,
+        "SliceCount": 1,
+        "SliceSpacing": 1.0,
+        "Specular": 0.1,
+        "zh_CN": {
+            "Ambient": "环境光系数",
+            "CanRepeatLabel": "可重复标记",
+            "Diffuse": "漫反射系数",
+            "ExcludeFileSuffixList": "文件夹排除后缀",
+            "FileTagTitle1": "父Tag名称",
+            "FileTagTitle2": "附加Tag名称",
+            "FileTagTitle3": "子Tag名称",
+            "IsLoadDicomToVideo": "加载DICOM为视频",
+            "IsSaveSrcFile": "是否保存源文件",
+            "KEY": "加密码",
+            "LandMark3DScale": "3D场景点缩放",
+            "LandMarkActorScale": "点标注缩放",
+            "PlayInterval": "播放间隔",
+            "PolyPointScale": "轮廓点缩放",
+            "Record_Time": "录屏时长",
+            "RectActorScale": "框缩放",
+            "RectDescription": "矩形框描述",
+            "SliceCount": "标注切面个数",
+            "SliceSpacing": "标注切面间距",
+            "Specular": "镜面反射系数"
+        }
+    },
+    "CurvePointIds": null,
+    "LabelGroup": [
+        {
+            "Childs": null,
+            "ID": 0,
+            "Type": ""
+        },
+        {
+            "Childs": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ],
+            "ID": 1,
+            "Type": "Rectangle"
+        }
+    ],
+    "Models": {
+        "ColorLabelTableModel": [
+            {
+                "Color": [
+                    255,
+                    0,
+                    0,
+                    255
+                ],
+                "Desc": "sd",
+                "ID": 1
+            },
+            {
+                "Color": [
+                    0,
+                    255,
+                    0,
+                    255
+                ],
+                "Desc": "sdxr",
+                "ID": 2
+            },
+            {
+                "Color": [
+                    0,
+                    0,
+                    255,
+                    255
+                ],
+                "Desc": "sdbb",
+                "ID": 3
+            },
+            {
+                "Color": [
+                    255,
+                    255,
+                    0,
+                    255
+                ],
+                "Desc": "sma",
+                "ID": 4
+            },
+            {
+                "Color": [
+                    0,
+                    255,
+                    255,
+                    255
+                ],
+                "Desc": "sdnz",
+                "ID": 5
+            },
+            {
+                "Color": [
+                    255,
+                    0,
+                    255,
+                    255
+                ],
+                "Desc": "sdxj",
+                "ID": 6
+            },
+            {
+                "Color": [
+                    255,
+                    239,
+                    213,
+                    255
+                ],
+                "Desc": "rkssz",
+                "ID": 7
+            },
+            {
+                "Color": [
+                    0,
+                    0,
+                    205,
+                    255
+                ],
+                "Desc": "sdbbz",
+                "ID": 8
+            },
+            {
+                "Color": [
+                    205,
+                    133,
+                    63,
+                    255
+                ],
+                "Desc": "rtzl",
+                "ID": 9
+            },
+            {
+                "Color": [
+                    210,
+                    180,
+                    140,
+                    255
+                ],
+                "Desc": "sd_left",
+                "ID": 10
+            },
+            {
+                "Color": [
+                    102,
+                    205,
+                    170,
+                    255
+                ],
+                "Desc": "sd_right",
+                "ID": 11
+            },
+            {
+                "Color": [
+                    205,
+                    53,
+                    203,
+                    255
+                ],
+                "Desc": "sdbbq",
+                "ID": 12
+            },
+            {
+                "Color": [
+                    205,
+                    176,
+                    57,
+                    255
+                ],
+                "Desc": "hdfyb",
+                "ID": 13
+            },
+            {
+                "Color": [
+                    205,
+                    198,
+                    189,
+                    255
+                ],
+                "Desc": "sdry",
+                "ID": 14
+            }
+        ],
+        "LabelDetailModel": {
+            "option": null,
+            "table": null
+        },
+        "LandMarkListModel": {
+            "Lines": null,
+            "Points": null
+        }
+    }
+}
