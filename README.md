@@ -54,6 +54,7 @@ Segment anything model/
 └── 📊 results/                    # 训练结果和预测
     ├── predictions/               # 预测结果
     └── run_*/                     # 训练记录
+└──彩色掩码转换/                    #解压文件、验码转换、数据集划分
 ```
 
 ## 🔧 环境安装
